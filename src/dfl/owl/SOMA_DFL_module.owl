@@ -5414,4 +5414,10 @@ SubClassOf(soma:Wall ObjectSomeValuesFrom(dul:hasQuality :destroy.v.wn.contact..
 SubClassOf(soma:Wall ObjectSomeValuesFrom(dul:hasQuality :support.v.wn.stative.Instrument))
 SubClassOf(soma:WineBottle ObjectSomeValuesFrom(dul:hasQuality :contain.v.wn.stative.Patient))
 
+SubClassOf(dfl:milk_carton.n.wn.artifact ObjectSomeValuesFrom(dul:hasQuality :store.v.wn.possession..place.Patient))
+SubClassOf(dfl:milk_carton.n.wn.artifact ObjectSomeValuesFrom(dul:hasPart dfl:homogenized_milk.n.wn.food))
+SubClassOf(dfl:homogenized_milk.n.wn.food dfl:breakfast_food.n.wn.food)
+SubClassOf(dfl:milk_carton.n.wn.artifact dfl:box.n.wn.artifact..container)
+
+
 )
